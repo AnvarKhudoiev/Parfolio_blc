@@ -1,9 +1,4 @@
-/* -------------------------------------------------------------------------- */
-/*                            External Dependencies                           */
-/* -------------------------------------------------------------------------- */
 import { useCallback, useEffect, useRef, useState } from "react";
-
-/* -------------------------- Internal Dependencies ------------------------- */
 import useIsMounted from "../hooks/useIsMounted";
 import "../styles/cursor.scss";
 

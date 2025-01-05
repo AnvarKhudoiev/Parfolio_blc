@@ -2,7 +2,7 @@ import { HiArrowDown } from "react-icons/hi";
 import { Link as ScrollLink } from "react-scroll/modules";
 import bgImage from "../assets/bgpattern3.png";
 import profile from "../assets/images/f2346a6d4482e39c65fc22693b9b5d59.jpg";
-import rezume from "../assets/BOBUR.pdf"; // PDF faylni import qilish
+import rezume from "../assets/BOBUR.pdf"; 
 
 function Hero() {
   return (

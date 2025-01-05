@@ -3,7 +3,6 @@ import Contact from "../components/Contact/Contact";
 import Footer from "../components/Footer/Footer";
 import Nav from "../components/Header/Navbar";
 import Hero from "../components/Hero";
-import Projects from "../components/Projects";
 import Qualification from "../components/Qualification";
 import Skills from "../components/Skills";
 
@@ -18,7 +17,6 @@ function HomePage() {
 				<Hero />
 				<About />
 				<Skills />
-				<Projects />
 				<Qualification />
 				<Contact />
 			</main>

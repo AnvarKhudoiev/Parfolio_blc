@@ -1,7 +1,6 @@
 import {
 	AiOutlineGithub,
 	AiOutlineLinkedin,
-	AiOutlineYoutube,
 } from "react-icons/ai";
 
 function Footer() {
