@@ -1,8 +1,8 @@
 import { HiArrowDown } from "react-icons/hi";
 import { Link as ScrollLink } from "react-scroll/modules";
 import bgImage from "../assets/bgpattern3.png";
-import profile from "../assets/images/f2346a6d4482e39c65fc22693b9b5d59.jpg";
-import rezume from "../assets/BOBUR.pdf"; 
+import profile from "../assets/images/AVA.jpg";
+import rezume from "../assets/CV_EN.pdf"; 
 
 function Hero() {
   return (
@@ -18,12 +18,11 @@ function Hero() {
         ></div>
 
         {/* Profile Image */}
-        <div className="md:mt-2 md:w-1/2">
+        <div className="md:mt-2 md:w-1/2 ">
           <img
             src={profile}
             alt="Profile image"
-            width={320}
-            className="rounded-full shadow-2xl"
+            className="rounded-full shadow-[0_10px_40px_rgba(255,255,255,0.9)] w-[230px] xl:w-[320px]"
           />
         </div>
 
@@ -33,15 +32,15 @@ function Hero() {
             className="heading text-4xl font-bold mt-6 md:mt-0 md:text-5xl 
             md:whitespace-nowrap md:-ml-4"
           >
-            Men Frontend Dasturchiman!
+            Hi, i'm Anvar!
           </h1>
           <p className="font-semibold text-xl mt-4 mb-6 md:text-2xl">
-            <span className="">React, Next.js va TypeScript bo'yicha mutaxassis</span>
+            <span className="">I'm a FullStack Developer</span>
           </p>
           <p className="mt-4 mb-10 text-gray-300 md:text-lg">
-            HTML | CSS3 | Sass | Pug | JavaScript | TypeScript ReactJs <br />
-            NextJs | Zustand | Redux | Redux Toolkit | Rest API <br />
-            React Query | Git | Responsive Design
+            JavaScript | TypeScript | React | NextJS  <br />
+            Go | Node.js/Express.js | PostgreSQL <br />
+             Rest API | Git 
           </p>
 
           {/* Contact Button */}
@@ -52,7 +51,7 @@ function Hero() {
             to="contact"
             className="text-primary-foreground font-semibold px-6 py-3 bg-secondary rounded-lg cursor-pointer shadow hover:bg-accent transition"
           >
-            Muloqot
+            Contact
           </ScrollLink>
 
           {/* Resume Button */}
@@ -61,7 +60,7 @@ function Hero() {
             download // Yuklab olish uchun download atributi
             className="text-primary-foreground font-semibold px-6 py-3 bg-secondary mt-6 ml-[30px] rounded-lg cursor-pointer shadow hover:bg-accent transition"
           >
-            Rezyume
+            Resume
           </a>
         </div>
       </div>

@@ -17,15 +17,12 @@ function Contact() {
 		setFormError(null); // Reset error state
 
 		const formData = new FormData(event.target as HTMLFormElement);
-		formData.append("access_key", process.env.REACT_APP_WEB3FORMS_ACCESS_KEY || "");
+		formData.append("access_key", import.meta.env.VITE_WEB3FORMS_ACCESS_KEY || "");
 
 		try {
 			const response = await axios.post(
 				"https://api.web3forms.com/submit",
 				formData,
-				{
-					headers: { "Content-Type": "multipart/form-data" },
-				}
 			);
 
 			if (response.data.success) {
@@ -66,14 +63,14 @@ function Contact() {
 							Feel free to contact me directly via{" "}
 							<Link
 								className="hover:text-secondary transition-colors"
-								to="mailto:gustavo.torsunovbobur7@gmail.com"
+								to="mailto:khudoievanvarshoh@gmail.com"
 							>
 								<u>Email</u>
 							</Link>{" "}
 							or{" "}
 							<Link
 								className="hover:text-secondary transition-colors"
-								to="https://www.linkedin.com/feed/"
+								to="https://www.linkedin.com/in/anvarshokh-khudoiev/"
 							>
 								<u>LinkedIn</u>
 							</Link>

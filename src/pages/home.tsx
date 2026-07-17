@@ -23,7 +23,6 @@ function HomePage() {
 
 			<footer className="bg-footer-bg w-full">
 				<hr className="w-full h-0.5 mx-auto mt-20 bg-neutral-200 border-0"></hr>
-
 				<Footer />
 			</footer>
 		</>
